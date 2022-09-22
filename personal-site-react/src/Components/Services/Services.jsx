@@ -21,7 +21,7 @@ const Servoces = () => {
                 <button className='button s-button'>Download CV</button>
             </a>
             
-            <div className='blur s-blurl' style={{background: '#abf1ff94'}}></div>
+            <div className='blur s-blur1' style={{background: '#abf1ff'}}></div>
             </div>
             {/* right side */}
             <div className="cards">
@@ -52,6 +52,7 @@ const Servoces = () => {
                         detail={"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, non?"}
                     />
                 </div>
+                <div className='blur s-blur2' style={{background: 'var(--purple)'}}></div>
             </div>
         </div>
     )
