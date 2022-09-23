@@ -1,2 +1,12 @@
 При создании нового компонента стартовый шаблон
 rafce
+
+Подключение swiper
+npm add swiper
+
+Подключение почты
+npm install @emailjs/browser --save
+
+Подключение иконок
+npm add @iconscout/react-unicons
+https://iconscout.com/icons/react
