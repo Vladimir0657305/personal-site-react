@@ -26,3 +26,6 @@ const transition = {duration: 2, type: 'spring'}
                 transition={transition}
                 src={glassesimoji} alt=""/>
 
+
+Подключаем скролл
+npm add react-scroll
