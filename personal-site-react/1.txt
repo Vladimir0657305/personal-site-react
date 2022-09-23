@@ -10,3 +10,19 @@ npm install @emailjs/browser --save
 Подключение иконок
 npm add @iconscout/react-unicons
 https://iconscout.com/icons/react
+
+Подключение анимации
+npm add framer-motion
+import {motion} from 'framer-motion';
+
+в теле функции до ретурна
+const transition = {duration: 2, type: 'spring'}
+
+после ретурна
+<img src={boy} alt=""/>
+                <motion.img 
+                initial={{left: '-36%'}}
+                whileInView={{left: '-24%'}}
+                transition={transition}
+                src={glassesimoji} alt=""/>
+
